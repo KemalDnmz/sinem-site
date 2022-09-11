@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(26, 188, 155, 0.4);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.img-fluid {
+    max-width: 400px;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+/* Navbar*/
+
+nav {
+    width: 100%;
+    font-family: Montserrat;
+    background-color: indianred;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    width: 100%;
+
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#logo-box {
+    float: left;
+    padding: 0.5rem;
+}
+
+#logo-box .logo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+#nav-links {
+    float: right;
+}
+
+#nav-links .nav-item {
+    float: left;
+    margin: 0.5rem;
+}
+
+#nav-links .nav-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    /* ! */
+    padding: 1.6rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s;
+}
+
+#nav-links .nav-link:hover {
+    color: #1ABC9B;
+}
+
+header {
+    background-color: rgb(26, 188, 155, 0.4);
+    height: 700px;
+    padding-top: calc(106px + 7rem);
+    text-align: center;
+
+}
+
+header h1 {
+
+    color:gray;
+    font-size: 6rem;
+}
+
+header h2 {
+
+    color:gray;
+    font-size: 2.4rem;
+    font-family: "lato";
+    font-weight: 300;
+}
+
+.star-light {
+    border: none;
+    border-top: 0.4rem solid #fff;
+    border-radius: 10px;
+    max-width: 250px;
+    margin: 2.5rem auto;
+    overflow: visible;
+    height: 0;
+
+
+
+
+}
+
+.star-light::after {
+    content: "\2605";
+    color: #fff;
+    font-weight: 900;
+    font-size: 3.2rem;
+    position: relative;
+    top: -28px;
+    background-color: rgba(26, 183, 188, 0);
+    padding: 0 8px;
+}
+
+.btn {
+
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    color: white;
+
+}
+
+.btn-primary {
+    background-color: #336ea2;
+}
+
+.btn-primary:hover {
+
+    color: #336ea2;
+    background-color: #ffff;
+    border: 1px solid #336ea2;
+
+
+}
+
+.btn-dark {
+    background: rgb(68, 64, 64);
+}
+
+.btn-dark:hover {
+
+    background: rgb(68, 64, 64);
+    background: #fff;
+    border: 0.5px solid #333;
+
+
+}
+
+.btn-block {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+
+}
+
+.btn-block:hover {
+
+    background-color: aquamarine;
+
+}
+
+.btn-block:active {
+    transform: translateY(0.5rem);
+    background-color: aquamarine;
+
+}
+
+.btn-outline {
+    color: #133863;
+    padding: 0.8rem 3rem;
+}
+
+.btn-outline:hover {
+    font-size: 20px;
+
+    padding: 3rem 3rem;
+}
+.indian-red {
+
+    background: indianred;
+}
+
+/*main*/
+
+main{
+
+    background-color: rgb(26, 188, 155, 0.4);
+
+}
+
+
+.yazilar{
+    width: auto;
+    border: 2px solid gray;
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+ 
+
+}
+.cizgili{
+    text-decoration: underline;
+}
+
+
+
+
+
+/*footer*/
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
+/*forms*/
+.form-group {
+    padding: 0.25rem 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
